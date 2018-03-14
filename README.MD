@@ -1,0 +1,3 @@
+# Enchiridion PWA 
+
+This is a progressive web app which presents one of the representative texts of the Stoic philosophers==the Enchiridion or "Handbook". It is a philosophy on life in 52 distilled thoughts; it addresses how to deal with life's vagaries and disappointments, and how to confront all one encounters as a philosopher and man. It's a text that deserves reflection and meditation, internet connection or not. 

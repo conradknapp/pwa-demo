@@ -1,0 +1,51 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: "Crimson Text", sans-serif;
+  font-size: 110%;
+}
+
+.main-header {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  background-color: #363b74;
+  margin-bottom: 36px;
+}
+
+.main-header h1 {
+  font-size: 2em;
+  margin: 0;
+  color: #fa923f;
+}
+
+.main-header h3 {
+  font-size: 1.25em;
+  margin: 0;
+  color: white;
+}
+
+.card {
+  border: 1px solid #ccc;
+  box-shadow: 3px 3px 6px #ccc;
+  width: 80vw;
+  max-width: 800px;
+  margin: 2em auto;
+  cursor: pointer;
+}
+
+.card__content {
+  padding: 0 2em;
+}
+
+@media (min-width: 500px) {
+  html, body {
+    font-size: 115%;
+  }
+}
+
+@media (min-width: 800px) {
+  html, body {
+    font-size: 120%;
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "enchiridion-pwa",
+  "version": "1.0.0",
+  "description": "A PWA of a wise philosophical text",
+  "scripts": {
+    "start": "http-server -c-1 -p 8081"
+  },
+  "author": "Conrad Knapp",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  }
+}

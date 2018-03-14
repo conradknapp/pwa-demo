@@ -1,18 +1,17 @@
 const CACHED_ITEMS = [
   "/",
   "/index.html",
-  "/src/js/app.js",
-  "/src/images/pwa.jpg",
   "/src/css/app.css",
-  "/src/images/pwa.jpg",
-  "https://fonts.googleapis.com/css?family=Raleway:400,700"
+  "/src/js/app.js",
+  "https://fonts.googleapis.com/css?family=Crimson+Text"
 ];
 
 addEventListener("install", event => {
-  event.waitUntil(async () => {
-    const cache = await caches.open("static");
-    await cache.addAll(CACHED_ITEMS);
-  });
+  event.waitUntil(
+    caches.open("static").then(cache => {
+      cache.addAll(CACHED_ITEMS);
+    })
+  );
 });
 
 addEventListener("activate", event => {

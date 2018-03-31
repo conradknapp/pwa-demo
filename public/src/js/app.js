@@ -4,7 +4,7 @@ if (navigator.serviceWorker) {
     .then(() => console.log("sw registered"));
 }
 
-const API = "https://enchiridion-api-yrtxbfihpy.now.sh/enchiridion";
+const API = "https://enchiridion-api-jqrnendggd.now.sh/enchiridion";
 
 fetch(API)
   .then(res => res.json())

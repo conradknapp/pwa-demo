@@ -4,7 +4,7 @@ const CACHED_ITEMS = [
   "/src/css/app.css",
   "/src/js/app.js",
   "https://fonts.googleapis.com/css?family=Crimson+Text",
-  "https://enchiridion-api-yrtxbfihpy.now.sh/enchiridion"
+  "https://enchiridion-api-jqrnendggd.now.sh/enchiridion"
 ];
 
 addEventListener("install", event => {

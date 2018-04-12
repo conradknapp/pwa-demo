@@ -1,8 +1,8 @@
 const CACHED_ITEMS = [
-  "/",
-  "/index.html",
-  "/src/css/app.css",
-  "/src/js/app.js",
+  "./",
+  "./index.html",
+  "./src/css/app.css",
+  "./src/js/app.js",
   "https://fonts.googleapis.com/css?family=Crimson+Text",
   "https://enchiridion-api-jqrnendggd.now.sh/enchiridion"
 ];
